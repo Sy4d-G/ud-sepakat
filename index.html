@@ -407,56 +407,35 @@
     <div id="mobileMenuDrawer" class="hidden xl:hidden border-t border-brand-border bg-brand-dark/98 backdrop-blur-xl px-4 py-4 shadow-2xl transition-all">
       <div class="max-w-md mx-auto space-y-3">
         
-        <!-- Navigation Links to All Sections -->
+        <!-- Navigation Links to All Sections (Clean, Editorial, Zero Slop) -->
         <div class="space-y-1 text-sm font-medium">
           <a href="#katalog" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:package" class="text-red-500" width="17"></iconify-icon>
-              <span>Katalog Produk Besi Rakitan</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Katalog Produk Besi Rakitan</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#kalkulator" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:calculator" class="text-amber-400" width="17"></iconify-icon>
-              <span>Kalkulator & Blueprint CAD</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Kalkulator & Blueprint CAD</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#keuntungan-bengkel" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:trending-down" class="text-emerald-400" width="17"></iconify-icon>
-              <span>Keuntungan Beli Langsung Bengkel</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Keuntungan Beli Langsung Pengrajin</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#edukasi-sni" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:shield-check" class="text-blue-400" width="17"></iconify-icon>
-              <span>Standar Mutu 100% Full SNI</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Standar Bahan Bangunan Full SNI</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#dokumentasi" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:camera" class="text-amber-400" width="17"></iconify-icon>
-              <span>Dokumentasi Lapangan & Workshop</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Dokumentasi Lapangan & Workshop</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#faq" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:help-circle" class="text-emerald-400" width="17"></iconify-icon>
-              <span>Tanya Jawab Pemesanan (FAQ)</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Tanya Jawab (FAQ)</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
           <a href="#lokasi" onclick="toggleMobileMenu(false)" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg text-slate-200 hover:text-white hover:bg-brand-surface transition-colors">
-            <span class="flex items-center gap-2.5">
-              <iconify-icon icon="lucide:map-pin" class="text-red-500" width="17"></iconify-icon>
-              <span>Lokasi Workshop & Rute GMaps</span>
-            </span>
-            <iconify-icon icon="lucide:chevron-right" class="text-slate-500" width="16"></iconify-icon>
+            <span>Lokasi Toko & Rute GMaps</span>
+            <span class="text-slate-600 font-mono text-xs">→</span>
           </a>
         </div>
 
@@ -564,9 +543,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
           <div class="lg:col-span-7 space-y-4">
-            <div class="text-xs font-mono font-semibold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-              <iconify-icon icon="lucide:trending-down" width="15"></iconify-icon>
-              <span>EFISIENSI BIAYA PEMBANGUNAN</span>
+            <div class="text-xs font-mono font-bold text-amber-400 uppercase tracking-wider">
+              EFISIENSI BIAYA PEMBANGUNAN
             </div>
             
             <h2 id="keuntungan-title" class="font-heading font-black text-2xl sm:text-3xl text-white tracking-tight uppercase">
@@ -586,23 +564,22 @@
                  target="_blank" 
                  class="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2.5 rounded bg-brand-surfaceSubtle hover:bg-slate-800 text-amber-400 border border-brand-border transition-colors">
                 <span>Konsultasikan Kebutuhan Besi Bangunan ke Pak Hendra</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </a>
             </div>
           </div>
 
           <!-- Clean 2-Column Comparison Matrix (No Cardception) -->
           <div class="lg:col-span-5 border border-brand-border bg-brand-dark p-5 rounded space-y-4">
-            <div class="text-xs font-mono text-slate-400 uppercase border-b border-brand-border pb-3 flex items-center justify-between font-semibold">
+            <div class="text-xs font-mono text-slate-400 uppercase border-b border-brand-border pb-3 font-semibold">
               <span>Perbandingan Jalur Pembelian</span>
-              <iconify-icon icon="lucide:arrow-left-right" width="14" class="text-amber-400"></iconify-icon>
             </div>
 
             <div class="space-y-3 text-xs">
               <!-- Jalur Bengkel UD Sepakat -->
               <div class="p-4 bg-brand-surface border-l-4 border-l-amber-400 border border-brand-border rounded space-y-1.5">
                 <div class="font-bold text-white flex items-center gap-1.5 text-xs">
-                  <iconify-icon icon="lucide:check-circle-2" class="text-amber-400" width="15"></iconify-icon>
+                  <span class="text-amber-400 font-mono">01.</span>
                   <span>Pesan Langsung ke Pengrajin Toko Besi UD Sepakat:</span>
                 </div>
                 <div class="text-slate-300 pl-5">• Harga tangan pertama (memangkas margin toko perantara)</div>
@@ -613,7 +590,7 @@
               <!-- Jalur Umum -->
               <div class="p-3.5 bg-brand-surface/60 border border-brand-border rounded space-y-1.5 text-slate-400">
                 <div class="font-semibold text-slate-300 flex items-center gap-1.5 text-xs">
-                  <iconify-icon icon="lucide:store" width="14" class="text-slate-500"></iconify-icon>
+                  <span class="text-slate-500 font-mono">02.</span>
                   <span>Pembelian Lewat Rantai Pasaran Umum:</span>
                 </div>
                 <div class="pl-5">• Harga lebih tinggi karena akumulasi margin toko bertingkat</div>
@@ -645,14 +622,12 @@
         <!-- Tab Controls -->
         <div class="flex items-center gap-2 border-b border-brand-border pb-4 mb-8" role="tablist">
           <button id="tabBegelBtn" role="tab" aria-selected="true" onclick="switchCalcTab('begel')" 
-                  class="px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors inline-flex items-center gap-1.5 shadow">
-            <iconify-icon icon="lucide:square" width="14"></iconify-icon>
-            <span>Cincin Begel</span>
+                  class="px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors shadow">
+            Cincin Begel
           </button>
           <button id="tabCakarBtn" role="tab" aria-selected="false" onclick="switchCalcTab('cakar')" 
-                  class="px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors inline-flex items-center gap-1.5">
-            <iconify-icon icon="lucide:grid-3x3" width="14"></iconify-icon>
-            <span>Cakar Ayam Pondasi (Footplate)</span>
+                  class="px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors">
+            Cakar Ayam Pondasi (Footplate)
           </button>
         </div>
 
@@ -663,9 +638,8 @@
           <div class="lg:col-span-5 space-y-5 bg-brand-surface border border-brand-border p-5 rounded">
             
             <div class="border-b border-brand-border pb-3">
-              <h3 class="text-sm font-bold text-white flex items-center gap-2">
-                <iconify-icon icon="lucide:sliders" class="text-amber-400" width="15"></iconify-icon>
-                <span>Parameter Sloof / Kolom</span>
+              <h3 class="text-sm font-bold text-white">
+                Parameter Sloof / Kolom
               </h3>
               <p class="text-xs text-slate-400 mt-0.5">Sesuaikan panjang bentangan dan ukuran penampang</p>
             </div>
@@ -770,9 +744,8 @@
             <!-- Dynamic CAD SVG Blueprint -->
             <div class="border border-brand-border bg-brand-surface p-5 rounded">
               <div class="flex items-center justify-between text-xs border-b border-brand-border pb-3 mb-4">
-                <span class="font-mono font-semibold text-slate-300 flex items-center gap-1.5">
-                  <iconify-icon icon="lucide:layers" class="text-amber-400" width="14"></iconify-icon>
-                  <span>DIAGRAM PENAMPANG STRUKTUR</span>
+                <span class="font-mono font-semibold text-slate-300">
+                  DIAGRAM PENAMPANG STRUKTUR
                 </span>
                 <span id="svgSpecBadge" class="font-mono text-amber-400 font-bold text-xs bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
                   10 x 15 cm (Ø 8mm)
@@ -822,10 +795,7 @@
               </div>
 
               <div class="flex items-center justify-between text-xs text-slate-400 mt-3 font-mono">
-                <span class="flex items-center gap-1.5 text-slate-300">
-                  <iconify-icon icon="lucide:check-circle" class="text-amber-400" width="13"></iconify-icon>
-                  <span>Bahan: Besi Full SNI Baru</span>
-                </span>
+                <span class="text-slate-300">Bahan: Besi Full SNI Baru</span>
                 <span class="text-slate-400">Langsung Jadi Siap Pasang</span>
               </div>
             </div>
@@ -868,9 +838,8 @@
           <div class="lg:col-span-5 space-y-5 bg-brand-surface border border-brand-border p-5 rounded">
             
             <div class="border-b border-brand-border pb-3">
-              <h3 class="text-sm font-bold text-white flex items-center gap-2">
-                <iconify-icon icon="lucide:sliders" class="text-amber-400" width="15"></iconify-icon>
-                <span>Parameter Cakar Ayam (Footplate)</span>
+              <h3 class="text-sm font-bold text-white">
+                Parameter Cakar Ayam (Footplate)
               </h3>
               <p class="text-xs text-slate-400 mt-0.5">Tentukan dimensi tapak pondasi dan jumlah titik kolom</p>
             </div>
@@ -941,9 +910,8 @@
             
             <div class="border border-brand-border bg-brand-surface p-5 rounded">
               <div class="flex items-center justify-between text-xs border-b border-brand-border pb-3 mb-4">
-                <span class="font-mono font-semibold text-slate-300 flex items-center gap-1.5">
-                  <iconify-icon icon="lucide:layers" class="text-amber-400" width="14"></iconify-icon>
-                  <span>BLUEPRINT TAPAK FOOTPLATE</span>
+                <span class="font-mono font-semibold text-slate-300">
+                  BLUEPRINT TAPAK FOOTPLATE
                 </span>
                 <span id="svgCakarSpecBadge" class="font-mono text-amber-400 font-bold text-xs bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">
                   50 x 50 cm (Ø 10mm)
@@ -989,10 +957,7 @@
               </div>
 
               <div class="flex items-center justify-between text-xs text-slate-400 mt-3 font-mono">
-                <span class="flex items-center gap-1.5 text-slate-300">
-                  <iconify-icon icon="lucide:check-circle" class="text-amber-400" width="13"></iconify-icon>
-                  <span>Pondasi Rumah 1 & 2 Lantai</span>
-                </span>
+                <span class="text-slate-300">Pondasi Rumah 1 & 2 Lantai</span>
                 <span class="text-slate-400">100% Besi Full SNI</span>
               </div>
             </div>
@@ -1036,9 +1001,8 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         
         <div class="max-w-3xl mb-8">
-          <div class="text-xs font-mono font-semibold text-amber-400 uppercase tracking-wider flex items-center gap-1.5 mb-1">
-            <iconify-icon icon="lucide:shield-check" width="15"></iconify-icon>
-            <span>STANDAR MUTU PRODUK PERBESIAN BANGUNAN</span>
+          <div class="text-xs font-mono font-bold text-amber-400 uppercase tracking-wider mb-1">
+            STANDAR MUTU PRODUK PERBESIAN BANGUNAN
           </div>
           <h2 id="edukasi-title" class="font-heading font-black text-2xl sm:text-3xl text-white tracking-tight uppercase">
             Standar Bahan Bangunan: <span class="text-amber-400">Besi Full SNI</span> vs <span class="text-red-500">Besi Banci</span>
@@ -1064,14 +1028,14 @@
                 <div class="text-[10px] text-slate-400">Full SNI (Sepakat):</div>
                 <div class="font-bold text-amber-400 text-xs">5.8 – 6.0 mm</div>
                 <div class="text-[10px] text-emerald-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:check-circle-2" width="11"></iconify-icon> Presisi & Kuat
+                  ✓ Presisi & Kuat
                 </div>
               </div>
               <div class="p-2.5 rounded-lg bg-brand-surfaceSubtle border border-brand-border space-y-0.5">
                 <div class="text-[10px] text-slate-500">Banci (Pasaran):</div>
                 <div class="font-semibold text-slate-400 text-xs line-through decoration-red-500">4.8 – 5.2 mm</div>
                 <div class="text-[10px] text-red-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:x-circle" width="11"></iconify-icon> Rentan Meleyot
+                  ✕ Rentan Meleyot
                 </div>
               </div>
             </div>
@@ -1095,14 +1059,14 @@
                 <div class="text-[10px] text-slate-400">Full SNI (Sepakat):</div>
                 <div class="font-bold text-amber-400 text-xs">7.7 – 8.0 mm</div>
                 <div class="text-[10px] text-emerald-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:check-circle-2" width="11"></iconify-icon> Tahan Geser Cor
+                  ✓ Tahan Geser Cor
                 </div>
               </div>
               <div class="p-2.5 rounded-lg bg-brand-surfaceSubtle border border-brand-border space-y-0.5">
                 <div class="text-[10px] text-slate-500">Banci (Pasaran):</div>
                 <div class="font-semibold text-slate-400 text-xs line-through decoration-red-500">6.5 – 7.0 mm</div>
                 <div class="text-[10px] text-red-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:x-circle" width="11"></iconify-icon> Rentan Retak
+                  ✕ Rentan Retak
                 </div>
               </div>
             </div>
@@ -1126,14 +1090,14 @@
                 <div class="text-[10px] text-slate-400">Full SNI (Sepakat):</div>
                 <div class="font-bold text-amber-400 text-xs">9.7 – 10.0 mm</div>
                 <div class="text-[10px] text-emerald-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:check-circle-2" width="11"></iconify-icon> Daya Dukung Pas
+                  ✓ Daya Dukung Pas
                 </div>
               </div>
               <div class="p-2.5 rounded-lg bg-brand-surfaceSubtle border border-brand-border space-y-0.5">
                 <div class="text-[10px] text-slate-500">Banci (Pasaran):</div>
                 <div class="font-semibold text-slate-400 text-xs line-through decoration-red-500">8.2 – 8.8 mm</div>
                 <div class="text-[10px] text-red-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:x-circle" width="11"></iconify-icon> Turun Pondasi
+                  ✕ Turun Pondasi
                 </div>
               </div>
             </div>
@@ -1157,14 +1121,14 @@
                 <div class="text-[10px] text-slate-400">Full SNI (Sepakat):</div>
                 <div class="font-bold text-amber-400 text-xs">11.6 – 12.0 mm</div>
                 <div class="text-[10px] text-emerald-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:check-circle-2" width="11"></iconify-icon> Beban Bertingkat
+                  ✓ Beban Bertingkat
                 </div>
               </div>
               <div class="p-2.5 rounded-lg bg-brand-surfaceSubtle border border-brand-border space-y-0.5">
                 <div class="text-[10px] text-slate-500">Banci (Pasaran):</div>
                 <div class="font-semibold text-slate-400 text-xs line-through decoration-red-500">10.0 – 10.5 mm</div>
                 <div class="text-[10px] text-red-400 flex items-center gap-1 font-sans">
-                  <iconify-icon icon="lucide:x-circle" width="11"></iconify-icon> Bahaya Struktur
+                  ✕ Bahaya Struktur
                 </div>
               </div>
             </div>
@@ -1176,9 +1140,8 @@
           </div>
 
           <!-- Bottom Assurance Badge -->
-          <div class="p-3 bg-brand-surface rounded-lg border border-brand-border flex items-center gap-2 text-xs text-amber-300">
-            <iconify-icon icon="lucide:shield-check" class="text-amber-400 flex-shrink-0" width="18"></iconify-icon>
-            <span class="text-[11px] leading-snug">Jaminan 100% Besi Baru Full SNI. Anda dipersilakan mengukur langsung diameter besi menggunakan jangka sorong di workshop kami.</span>
+          <div class="p-3 bg-brand-surface rounded-lg border border-brand-border text-xs text-amber-300">
+            <span class="text-[11px] leading-snug block">Jaminan 100% Besi Baru Full SNI. Anda dipersilakan mengukur langsung diameter besi menggunakan jangka sorong di workshop kami.</span>
           </div>
 
         </div>
@@ -1225,9 +1188,8 @@
           </div>
           
           <div class="p-3.5 bg-[#090d13] border-t border-brand-border flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-400">
-            <span class="flex items-center gap-1.5 text-amber-300 font-medium">
-              <iconify-icon icon="lucide:check-circle" width="14"></iconify-icon>
-              <span>Komitmen UD Sepakat: Perakitan Cakar Ayam, Begel, Sloof & Kolom 100% Besi Baru Full SNI</span>
+            <span class="text-amber-300 font-medium">
+              Komitmen UD Sepakat: Perakitan Cakar Ayam, Begel, Sloof & Kolom 100% Besi Baru Full SNI
             </span>
             <span>Anda dipersilakan mengukur langsung diameter besi di bengkel kami.</span>
           </div>
@@ -1241,9 +1203,8 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-8">
         
         <div class="max-w-2xl">
-          <div class="text-[11px] font-mono font-bold text-amber-400 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
-            <iconify-icon icon="lucide:history" width="14"></iconify-icon>
-            <span>DOKUMENTASI OPERASIONAL & SEPAK TERJANG BENGKEL</span>
+          <div class="text-[11px] font-mono font-bold text-amber-400 uppercase tracking-wider mb-1.5">
+            DOKUMENTASI OPERASIONAL & SEPAK TERJANG BENGKEL
           </div>
           <h2 id="dokumentasi-title" class="font-heading font-black text-2xl sm:text-3xl text-white tracking-tight uppercase">
             Jejak Karya & Dokumentasi <span class="text-red-500">UD Sepakat Karawang</span>
@@ -1372,9 +1333,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           
           <div class="border border-brand-border bg-brand-surface p-4 rounded space-y-1.5">
-            <div class="text-[11px] font-mono font-bold text-amber-400 flex items-center gap-1.5">
-              <iconify-icon icon="lucide:package-check" width="14"></iconify-icon>
-              <span>01 / KAPASITAS PRODUKSI</span>
+            <div class="text-[11px] font-mono font-bold text-amber-400">
+              01 / KAPASITAS PRODUKSI
             </div>
             <h3 class="text-sm font-bold text-white">Melayani Pesanan Satuan Maupun Borongan Proyek</h3>
             <p class="text-xs text-slate-300 leading-relaxed">
@@ -1383,9 +1343,8 @@
           </div>
 
           <div class="border border-brand-border bg-brand-surface p-4 rounded space-y-1.5">
-            <div class="text-[11px] font-mono font-bold text-amber-400 flex items-center gap-1.5">
-              <iconify-icon icon="lucide:truck" width="14"></iconify-icon>
-              <span>02 / JANGKAUAN PENGIRIMAN</span>
+            <div class="text-[11px] font-mono font-bold text-amber-400">
+              02 / JANGKAUAN PENGIRIMAN
             </div>
             <h3 class="text-sm font-bold text-white">Pengiriman Langsung ke Titik Proyek</h3>
             <p class="text-xs text-slate-300 leading-relaxed">
@@ -1394,9 +1353,8 @@
           </div>
 
           <div class="border border-brand-border bg-brand-surface p-4 rounded space-y-1.5">
-            <div class="text-[11px] font-mono font-bold text-amber-400 flex items-center gap-1.5">
-              <iconify-icon icon="lucide:badge-check" width="14"></iconify-icon>
-              <span>03 / STANDAR BAHAN BAKU</span>
+            <div class="text-[11px] font-mono font-bold text-amber-400">
+              03 / STANDAR BAHAN BAKU
             </div>
             <h3 class="text-sm font-bold text-white">Transparansi Ukur di Tempat</h3>
             <p class="text-xs text-slate-300 leading-relaxed">
@@ -1465,7 +1423,7 @@
               <button type="button" onclick="openSpecModal('Pondasi Cakar Ayam (Footplate)', ['40x40 cm', '50x50 cm', '60x60 cm', '80x80 cm', '100x100 cm'], ['8mm Full SNI', '10mm Full SNI', '12mm Full SNI', 'D13 Ulir SNI'])" 
                       class="w-full bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2.5 px-4 rounded transition-colors inline-flex items-center justify-center gap-1.5 shadow">
                 <span>Pilih Ukuran & Estimasi Harga</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </button>
             </div>
           </div>
@@ -1508,7 +1466,7 @@
               <button type="button" onclick="openSpecModal('Balok Sloof Jadi', ['Panjang 3 Meter (10x15 cm)', 'Panjang 3 Meter (10x20 cm)', 'Panjang 4 Meter (10x15 cm)', 'Panjang 4 Meter (10x20 cm)', 'Panjang 4 Meter (15x20 cm)'], ['4x Ø8mm Full SNI', '4x Ø10mm Full SNI', '4x Ø12mm Full SNI'])" 
                       class="w-full bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2.5 px-4 rounded-lg transition-colors inline-flex items-center justify-center gap-1.5 shadow">
                 <span>Pilih Ukuran & Estimasi Harga</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </button>
             </div>
           </div>
@@ -1550,7 +1508,7 @@
               <button type="button" onclick="openSpecModal('Tiang Kolom Jadi', ['Panjang 3 Meter (4x Ø8mm)', 'Panjang 3 Meter (4x Ø10mm)', 'Panjang 4 Meter (4x Ø8mm)', 'Panjang 4 Meter (4x Ø10mm)'], ['Besi Full SNI'])" 
                       class="w-full bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2.5 px-4 rounded-lg transition-colors inline-flex items-center justify-center gap-1.5 shadow">
                 <span>Pilih Ukuran & Estimasi Harga</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </button>
             </div>
           </div>
@@ -1593,7 +1551,7 @@
               <button type="button" onclick="openSpecModal('Cincin Begel (Lepasan)', ['8x12 cm (Tiang Dinding)', '10x15 cm (Sloof)', '10x20 cm (Balok)', '15x20 cm (Ring Balk)'], ['6mm Full SNI', '8mm Full SNI'])" 
                       class="w-full bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2.5 px-4 rounded-lg transition-colors inline-flex items-center justify-center gap-1.5 shadow">
                 <span>Pilih Ukuran & Estimasi Harga</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </button>
             </div>
           </div>
@@ -1633,7 +1591,7 @@
               <button type="button" onclick="openSpecModal('Pondasi Sudut Batas Tanah (Cakar Gantung)', ['Batas Tanah 40x60 cm', 'Batas Tanah 50x70 cm', 'Bordes Tangga Custom'], ['10mm Full SNI', '12mm Full SNI', 'D13 Ulir SNI'])" 
                       class="w-full bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2.5 px-4 rounded transition-colors inline-flex items-center justify-center gap-1.5 shadow">
                 <span>Pilih Ukuran & Estimasi Harga</span>
-                <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
+                <span class="font-mono">→</span>
               </button>
             </div>
           </div>
@@ -1657,13 +1615,11 @@
                 </p>
 
                 <div class="space-y-1 text-xs text-slate-300 pt-2 border-t border-brand-border font-normal">
-                  <div class="flex items-center gap-1.5">
-                    <iconify-icon icon="lucide:check" class="text-amber-400" width="14"></iconify-icon>
-                    <span>Harga langsung pengrajin tanpa perantara toko</span>
+                  <div>
+                    • Harga langsung pengrajin tanpa perantara toko
                   </div>
-                  <div class="flex items-center gap-1.5">
-                    <iconify-icon icon="lucide:check" class="text-amber-400" width="14"></iconify-icon>
-                    <span>Bisa kirim foto coretan ukuran tukang via WA</span>
+                  <div>
+                    • Bisa kirim foto coretan ukuran tukang via WA
                   </div>
                 </div>
               </div>
@@ -1691,9 +1647,8 @@
         
         <!-- Header -->
         <div class="text-center max-w-2xl mx-auto mb-10">
-          <div class="text-xs font-mono font-semibold text-amber-400 uppercase tracking-wider flex items-center justify-center gap-1.5 mb-1.5">
-            <iconify-icon icon="lucide:help-circle" width="15"></iconify-icon>
-            <span>INFORMASI & PANDUAN KONSUMEN</span>
+          <div class="text-xs font-mono font-bold text-amber-400 uppercase tracking-wider mb-1.5">
+            INFORMASI & PANDUAN KONSUMEN
           </div>
           <h2 id="faq-title" class="font-heading font-black text-2xl sm:text-3xl text-white tracking-tight uppercase">
             Tanya Jawab Seputar <span class="text-amber-400">Pemesanan Besi Konstruksi</span>
@@ -1794,20 +1749,15 @@
 
         <!-- Quick Help Bar inside FAQ -->
         <div class="mt-8 p-4 rounded-xl border border-brand-border bg-brand-dark flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
-          <div class="flex items-center gap-3">
-            <div class="w-9 h-9 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 flex-shrink-0">
-              <iconify-icon icon="logos:whatsapp-icon" width="18"></iconify-icon>
-            </div>
-            <div>
-              <div class="text-xs font-bold text-white">Ada Pertanyaan Lain Mengenai Denah Bangunan Anda?</div>
-              <div class="text-[11px] text-slate-400">Pak Hendra siap membantu konsultasi ukuran dan estimasi biaya gratis.</div>
-            </div>
+          <div>
+            <div class="text-xs font-bold text-white">Ada Pertanyaan Lain Mengenai Denah Bangunan Anda?</div>
+            <div class="text-[11px] text-slate-400">Pak Hendra siap membantu konsultasi ukuran dan estimasi biaya gratis.</div>
           </div>
           <a href="https://wa.me/6281210476277?text=Halo%20Pak%20Hendra,%20saya%20ingin%20tanya%20spesifikasi%20dan%20harga%20besi%20rakitan%20UD%20Sepakat." 
              target="_blank" 
-             class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-4 py-2 rounded-lg transition-colors shadow">
+             class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-4 py-2.5 rounded-lg transition-colors shadow">
+            <iconify-icon icon="logos:whatsapp-icon" width="16"></iconify-icon>
             <span>Tanya Langsung via WA</span>
-            <iconify-icon icon="lucide:arrow-right" width="14"></iconify-icon>
           </a>
         </div>
 
@@ -1823,9 +1773,8 @@
           <!-- Left Column: Detailed Workshop Info & Direct Action -->
           <div class="lg:col-span-7 space-y-4">
             <div>
-              <div class="text-xs font-mono font-semibold text-amber-400 uppercase tracking-wider flex items-center gap-1.5 mb-1">
-                <iconify-icon icon="lucide:map-pin" width="15"></iconify-icon>
-                <span>LOKASI BENGKEL RESMI KARAWANG</span>
+              <div class="text-xs font-mono font-bold text-amber-400 uppercase tracking-wider mb-1">
+                LOKASI BENGKEL RESMI KARAWANG
               </div>
               <h2 id="lokasi-title" class="font-heading font-black text-2xl sm:text-3xl text-white tracking-tight uppercase">
                 Kunjungi Workshop <span class="text-amber-400">UD SEPAKAT</span>
@@ -1838,9 +1787,8 @@
             <!-- Exact Registered Google Maps Address Card -->
             <div class="border border-brand-border bg-brand-surface p-4 rounded space-y-2.5 shadow-sm">
               <div class="text-xs font-mono text-slate-400 uppercase flex items-center justify-between">
-                <span class="flex items-center gap-1.5 font-bold text-amber-400">
-                  <iconify-icon icon="lucide:map-pin" class="text-red-500" width="15"></iconify-icon>
-                  <span>Alamat Sesuai Google Maps:</span>
+                <span class="font-bold text-amber-400">
+                  Alamat Sesuai Google Maps:
                 </span>
                 <span class="text-[11px] font-mono text-slate-300 bg-slate-800 px-2 py-0.5 rounded border border-slate-700">Plus Code: M7CJ+G4</span>
               </div>
@@ -1863,14 +1811,12 @@
                    class="text-amber-400 hover:text-white font-medium inline-flex items-center gap-1.5 transition-colors">
                   <iconify-icon icon="logos:google-maps" width="14"></iconify-icon>
                   <span>Buka Titik di Google Maps</span>
-                  <iconify-icon icon="lucide:external-link" width="12"></iconify-icon>
                 </a>
                 <span class="text-slate-600">•</span>
                 <a href="https://www.google.com/maps/dir/?api=1&destination=Toko+Besi+Cakar+Ayam+Karawang+UD.+Sepakat&destination_place_id=ChIJyQGzZhGdaS4RmtG3lbxok6s" 
                    target="_blank" 
                    class="text-slate-300 hover:text-white font-medium inline-flex items-center gap-1.5 transition-colors">
-                  <iconify-icon icon="lucide:navigation" width="13" class="text-red-500"></iconify-icon>
-                  <span>Petunjuk Rute Navigasi</span>
+                  <span>Petunjuk Rute Navigasi →</span>
                 </a>
               </div>
             </div>
@@ -1909,26 +1855,23 @@
                 <span class="text-xs font-mono font-bold text-white block">LISTING RESMI GOOGLE MAPS</span>
                 <span class="text-[11px] text-slate-400">Toko Besi Cakar Ayam Karawang UD. Sepakat</span>
               </div>
-              <div class="flex items-center gap-1 text-xs bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded">
-                <iconify-icon icon="lucide:star" class="text-amber-400" width="13"></iconify-icon>
-                <span class="text-amber-400 font-bold font-mono">4.8</span>
-                <span class="text-slate-400 text-[10px]">(Google Maps)</span>
+              <div class="text-xs bg-amber-500/10 border border-amber-500/30 px-2 py-0.5 rounded font-mono font-bold text-amber-400">
+                ★ 4.8 <span class="text-slate-400 text-[10px] font-normal font-sans">(Google Maps)</span>
               </div>
             </div>
 
             <!-- Two Action Buttons (Placed DIRECTLY ABOVE MAP to completely avoid floating button overlap) -->
             <div class="grid grid-cols-2 gap-2">
               <a href="https://www.google.com/maps/place/Toko+Besi+Cakar+Ayam+Karawang+UD.+Sepakat/@-6.3286807,107.2803007,17z/data=!4m6!3m5!1s0x2e699d1166b301c9:0xab9368bc95b7d19a!8m2!3d-6.3286807!4d107.2803007!16s%2Fg%2F11fpjftkrb" 
-                 target="_blank" 
-                 class="inline-flex items-center justify-center gap-1.5 border border-brand-borderLight hover:border-slate-400 bg-brand-surfaceSubtle text-slate-200 hover:text-white text-xs font-semibold py-2 px-3 rounded transition-colors text-center shadow-sm">
-                <iconify-icon icon="logos:google-maps" width="14"></iconify-icon>
+                 target="_blank"
+                 class="flex items-center justify-center gap-1.5 bg-brand-surfaceSubtle hover:bg-slate-700 text-amber-400 border border-brand-border py-2 px-3 rounded text-xs font-medium transition-colors">
+                <iconify-icon icon="logos:google-maps" width="13"></iconify-icon>
                 <span>Buka di Maps</span>
               </a>
               <a href="https://www.google.com/maps/dir/?api=1&destination=Toko+Besi+Cakar+Ayam+Karawang+UD.+Sepakat&destination_place_id=ChIJyQGzZhGdaS4RmtG3lbxok6s" 
                  target="_blank" 
-                 class="inline-flex items-center justify-center gap-1.5 bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2 px-3 rounded transition-colors text-center shadow">
-                <iconify-icon icon="lucide:navigation" width="13"></iconify-icon>
-                <span>Petunjuk Rute</span>
+                 class="inline-flex items-center justify-center gap-1 bg-brand-red hover:bg-brand-redHover text-white text-xs font-semibold py-2 px-3 rounded transition-colors text-center shadow">
+                <span>Petunjuk Rute →</span>
               </a>
             </div>
 
@@ -1954,20 +1897,11 @@
               </div>
             </div>
 
-            <!-- Quick Meta Points (Safely at bottom) -->
-            <div class="border border-brand-border bg-brand-dark p-2.5 rounded text-xs space-y-1 text-slate-300 font-mono">
-              <div class="flex items-center gap-2">
-                <iconify-icon icon="lucide:map-pin" class="text-amber-400" width="13"></iconify-icon>
-                <span>Area: Karawang, Purwakarta, Subang, Jabodetabek</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <iconify-icon icon="lucide:truck" class="text-amber-400" width="13"></iconify-icon>
-                <span>Pengiriman: Pick-up Bengkel & Ekspedisi Lalamove</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <iconify-icon icon="lucide:package" class="text-amber-400" width="13"></iconify-icon>
-                <span>Pesanan: Melayani eceran satuan maupun partai besar</span>
-              </div>
+            <!-- Quick Meta Points (Clean, Monospace, Zero Slop) -->
+            <div class="border border-brand-border bg-brand-dark p-2.5 rounded text-xs space-y-1 text-slate-300 font-mono text-[11px]">
+              <div>• Cakupan: Karawang, Purwakarta, Subang, Jabodetabek</div>
+              <div>• Pengiriman: Pick-up Toko & Ekspedisi Lalamove</div>
+              <div>• Pesanan: Melayani satuan eceran maupun borongan proyek</div>
             </div>
 
           </div>
@@ -2161,17 +2095,17 @@
       const calcCakarSection = document.getElementById('calcCakarSection');
 
       if (tab === 'begel') {
-        tabBegelBtn.className = "px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors inline-flex items-center gap-1.5 shadow";
+        tabBegelBtn.className = "px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors shadow";
         tabBegelBtn.setAttribute('aria-selected', 'true');
-        tabCakarBtn.className = "px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors inline-flex items-center gap-1.5";
+        tabCakarBtn.className = "px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors";
         tabCakarBtn.setAttribute('aria-selected', 'false');
 
         calcBegelSection.classList.remove('hidden');
         calcCakarSection.classList.add('hidden');
       } else {
-        tabCakarBtn.className = "px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors inline-flex items-center gap-1.5 shadow";
+        tabCakarBtn.className = "px-4 py-2 text-xs sm:text-sm font-semibold rounded bg-brand-red text-white transition-colors shadow";
         tabCakarBtn.setAttribute('aria-selected', 'true');
-        tabBegelBtn.className = "px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors inline-flex items-center gap-1.5";
+        tabBegelBtn.className = "px-4 py-2 text-xs sm:text-sm font-medium rounded text-slate-400 hover:text-white hover:bg-brand-surface transition-colors";
         tabBegelBtn.setAttribute('aria-selected', 'false');
 
         calcCakarSection.classList.remove('hidden');
