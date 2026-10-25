@@ -1,0 +1,14 @@
+# Temporary scripts & caches
+__pycache__/
+*.pyc
+.vercel
+.env*
+.env.local
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build & migration helper scripts
+*.py
