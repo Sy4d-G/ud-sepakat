@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://udsepakat.com/sitemap.xml
+Sitemap: https://www.udsepakat.my.id/sitemap.xml
