@@ -40,127 +40,160 @@
 
   <!-- STRUCTURED DATA (SCHEMA.ORG JSON-LD): LOCAL BUSINESS & HARDWARE STORE -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["LocalBusiness", "HardwareStore", "HomeAndConstructionBusiness"],
-        "@id": "https://www.udsepakat.my.id/#business",
-        "name": "Toko Besi Cakar Ayam Karawang UD. Sepakat",
-        "alternateName": ["UD Sepakat Karawang", "Toko Besi UD Sepakat", "Toko Besi Cakar Ayam UD. Sepakat"],
-        "url": "https://www.udsepakat.my.id/",
-        "logo": "assets/hero_slide_user_1.jpg",
-        "image": "assets/hero_slide_user_1.jpg",
-        "description": "Toko besi Karawang termurah dan toko cakar ayam tangan pertama langsung pengrajin. Pusat penjualan bahan bangunan perbesian siap cor: pondasi cakar ayam tapak, beli sloof jadi, tiang kolom, dan cincin begel 100% Besi Baru Full SNI dengan harga toko besi murah tanpa perantara.",
-        "keywords": "toko besi, toko cakar ayam, toko besi karawang, toko besi murah, toko bahan bangunan, toko besi karawang termurah, beli sloof, harga cakar ayam karawang, cakar ayam terdekat",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Katalog Toko Bahan Bangunan & Perbesian Siap Pasang",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Pondasi Cakar Ayam (Footplate)",
-                "category": "Toko Cakar Ayam & Bahan Bangunan",
-                "description": "Pondasi cakar ayam rumah tinggal 1 & 2 lantai siap pasang dari bahan 100% Besi Baru Full SNI."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Balok Sloof Jadi (3m & 4m)",
-                "category": "Beli Sloof & Tulangan Beton",
-                "description": "Beli sloof jadi rakitan 4 batang tulangan memanjang dan cincin begel siap cor di atas pondasi."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Tiang Kolom Jadi (3m & 4m)",
-                "category": "Toko Besi & Bahan Bangunan",
-                "description": "Tiang kolom praktis dinding siap tegak dengan 4 batang tulangan utama dan begel cincin terikat kawat rangkap."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Cincin Begel (Lepasan Berbagai Ukuran)",
-                "category": "Toko Besi Murah",
-                "description": "Besi cincin begel pengikat tulangan ditekuk siku presisi standar 100% Full SNI."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Pondasi Sudut Batas Tanah (Cakar Gantung)",
-                "category": "Toko Cakar Ayam",
-                "description": "Pondasi tapak asimetris khusus batas tanah tetangga dengan tiang kolom di tepi tapak."
-              }
-            }
-          ]
-        }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "HardwareStore",
+        "HomeAndConstructionBusiness"
+      ],
+      "@id": "https://www.udsepakat.my.id/#business",
+      "name": "Toko Besi Cakar Ayam Karawang UD. Sepakat",
+      "alternateName": [
+        "UD. Sepakat Karawang",
+        "Toko Besi UD. Sepakat",
+        "Toko Besi Cakar Ayam UD. Sepakat"
+      ],
+      "url": "https://www.udsepakat.my.id/",
+      "logo": "https://www.udsepakat.my.id/assets/favicon-32x32.png",
+      "image": "https://www.udsepakat.my.id/assets/hero_slide_user_1.jpg",
+      "description": "Toko besi Karawang termurah dan toko cakar ayam tangan pertama langsung pengrajin. Pusat penjualan bahan bangunan perbesian siap cor: pondasi cakar ayam tapak, beli sloof jadi, tiang kolom, dan cincin begel 100% Besi Baru Full SNI dengan harga toko besi murah tanpa perantara.",
+      "telephone": "+62-812-1047-6277",
+      "priceRange": "Rp 2.500 - Rp 500.000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Ekalaya, Ruko Blok S No. 19, Wadas",
+        "addressLocality": "Karawang",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "41361",
+        "addressCountry": "ID"
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.udsepakat.my.id/#faq",
-        "mainEntity": [
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.3286807,
+        "longitude": 107.2803007
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "07:00",
+          "closes": "17:30"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Katalog Layanan & Produk Perbesian Siap Pasang",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "Berapa harga besi cakar ayam dan cincin begel di Toko Besi UD Sepakat?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Harga di Toko Besi UD Sepakat adalah harga langsung pengrajin tangan pertama tanpa perantara toko material umum, sehingga lebih hemat. Harga ditentukan secara transparan per satuan (pcs) atau per meter berdasarkan ukuran penampang dan diameter besi (Ø 6mm, 8mm, 10mm, 12mm Full SNI). Hubungi WhatsApp Pak Hendra di +62 812-1047-6277 untuk daftar harga terbaru."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pabrikasi Pondasi Cakar Ayam (Footplate)",
+              "description": "Perakitan pondasi cakar ayam rumah tinggal 1 & 2 lantai siap pasang dari bahan 100% Besi Baru Full SNI."
             }
           },
           {
-            "@type": "Question",
-            "name": "Apakah bisa memesan cakar ayam dan begel ukuran khusus (custom)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ya, sangat bisa. Seluruh produk besi rakitan kami dibuat dengan sistem Made-to-Order (berdasarkan pesanan). Anda cukup mengirimkan catatan ukuran dari tukang atau foto denah arsitek ke WhatsApp kami, dan pengrajin kami akan merakit tulangan besi secara presisi per centimeter sesuai kebutuhan proyek Anda."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pabrikasi Balok Sloof Jadi Siap Cor (3m & 4m)",
+              "description": "Rangkaian sloof jadi rakitan 4 batang tulangan memanjang dan cincin begel siap cor di atas pondasi."
             }
           },
           {
-            "@type": "Question",
-            "name": "Apa yang dimaksud dengan besi banci dan apa bedanya dengan Besi Full SNI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Besi banci adalah istilah pasaran umum untuk besi beton yang diameternya jauh di bawah standar resmi (misalnya label besi 10mm tetapi fisik aslinya hanya 8.2mm–8.8mm). Untuk struktur penahan beban seperti pondasi tapak atau sloof gantung, besi banci sangat berbahaya karena memicu retak dinding dan amblasnya pondasi. UD Sepakat berkomitmen menggunakan 100% Besi Baru Full SNI dengan diameter riil terukur."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Perakitan Tiang Kolom Jadi (3m & 4m)",
+              "description": "Tiang kolom praktis dinding siap tegak dengan 4 batang tulangan utama dan begel cincin terikat kawat rangkap."
             }
           },
           {
-            "@type": "Question",
-            "name": "Apakah Toko Besi UD Sepakat melayani pengiriman langsung ke lokasi proyek?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ya, kami memiliki armada pick-up operasional sendiri yang melayani pengantaran langsung ke titik proyek di seluruh wilayah Karawang (Telukjambe, Klari, Kosambi, Cikampek, dsk), Cikarang, Purwakarta, dan Subang. Untuk area Jabodetabek, pengiriman dilayani via ekspedisi pick-up/truk Lalamove."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Penekukan Cincin Begel (Lepasan Berbagai Ukuran)",
+              "description": "Besi cincin begel pengikat tulangan ditekuk siku presisi standar 100% Full SNI."
             }
           },
           {
-            "@type": "Question",
-            "name": "Berapa lama estimasi pengerjaan pesanan besi cakar ayam dan kolom praktis?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Untuk pesanan ukuran standar dalam jumlah eceran hingga sedang, pengerjaan biasanya selesai dalam 1–2 hari kerja. Untuk pesanan borongan proyek skala besar, pengiriman dijadwalkan secara bertahap menyesuaikan kesiapan tukang dan tahapan pengecoran di lapangan."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Di mana alamat Toko Besi UD Sepakat dan bagaimana cara memesannya?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Workshop dan toko resmi kami beralamat di Jl. Ekalaya, Ruko Blok S No. 19, Wadas, Kec. Telukjambe Timur, Karawang, Jawa Barat 41361 (akses jalan luas untuk truk dan pick-up). Pemesanan dapat dilakukan dengan datang langsung atau konsultasi online melalui WhatsApp Bpk. Hendra Ginting di nomor +62 812-1047-6277."
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pabrikasi Pondasi Sudut Batas Tanah (Cakar Gantung)",
+              "description": "Pondasi tapak asimetris khusus batas tanah tetangga dengan tiang kolom di tepi tapak."
             }
           }
         ]
       }
-    ]
-  }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.udsepakat.my.id/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Berapa harga besi cakar ayam dan cincin begel di Toko Besi UD Sepakat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harga di Toko Besi UD Sepakat adalah harga langsung pengrajin tangan pertama tanpa perantara toko material umum, sehingga lebih hemat. Harga ditentukan secara transparan per satuan (pcs) atau per meter berdasarkan ukuran penampang dan diameter besi (Ø 6mm, 8mm, 10mm, 12mm Full SNI). Hubungi WhatsApp Pak Hendra di +62 812-1047-6277 untuk daftar harga terbaru."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah bisa memesan cakar ayam dan begel ukuran khusus (custom)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, sangat bisa. Seluruh produk besi rakitan kami dibuat dengan sistem Made-to-Order (berdasarkan pesanan). Anda cukup mengirimkan catatan ukuran dari tukang atau foto denah arsitek ke WhatsApp kami, dan pengrajin kami akan merakit tulangan besi secara presisi per centimeter sesuai kebutuhan proyek Anda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apa yang dimaksud dengan besi banci dan apa bedanya dengan Besi Full SNI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Besi banci adalah istilah pasaran umum untuk besi beton yang diameternya jauh di bawah standar resmi (misalnya label besi 10mm tetapi fisik aslinya hanya 8.2mm–8.8mm). Untuk struktur penahan beban seperti pondasi tapak atau sloof gantung, besi banci sangat berbahaya karena memicu retak dinding dan amblasnya pondasi. UD Sepakat berkomitmen menggunakan 100% Besi Baru Full SNI dengan diameter riil terukur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah Toko Besi UD Sepakat melayani pengiriman langsung ke lokasi proyek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, kami memiliki armada pick-up operasional sendiri yang melayani pengantaran langsung ke titik proyek di seluruh wilayah Karawang (Telukjambe, Klari, Kosambi, Cikampek, dsk), Cikarang, Purwakarta, dan Subang. Untuk area Jabodetabek, pengiriman dilayani via ekspedisi pick-up/truk Lalamove."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa lama estimasi pengerjaan pesanan besi cakar ayam dan kolom praktis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Untuk pesanan ukuran standar dalam jumlah eceran hingga sedang, pengerjaan biasanya selesai dalam 1–2 hari kerja. Untuk pesanan borongan proyek skala besar, pengiriman dijadwalkan secara bertahap menyesuaikan kesiapan tukang dan tahapan pengecoran di lapangan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Di mana alamat Toko Besi UD Sepakat dan bagaimana cara memesannya?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Workshop dan toko resmi kami beralamat di Jl. Ekalaya, Ruko Blok S No. 19, Wadas, Kec. Telukjambe Timur, Karawang, Jawa Barat 41361 (akses jalan luas untuk truk dan pick-up). Pemesanan dapat dilakukan dengan datang langsung atau konsultasi online melalui WhatsApp Bpk. Hendra Ginting di nomor +62 812-1047-6277."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
   
   <!-- Favicon & Touch Icons -->
