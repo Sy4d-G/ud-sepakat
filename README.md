@@ -49,7 +49,7 @@ Website ini dirancang dengan standar desain modern industrial tanpa efek *slop*,
 
 ## 🚀 Menjalankan Secara Lokal
 
-Cukup buka berkas `index.html` langsung di peramban web atau jalankan server statis lokal:
+Cukup buka berkas `index.php` langsung di peramban web atau jalankan server lokal PHP:
 
 ```bash
 # Menggunakan Python 3
